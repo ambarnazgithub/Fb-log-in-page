@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222,220,224);
+    flex-direction: column;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(49, 79, 199);
+}
+.login{
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    width: 400px;
+    height: 50px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.Account{
+    color:white;
+    background-color: rgb(4, 179, 4);
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+input{
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    width: 380px;
+    height: 50px;
+    margin: 7px 0px;
+    padding: 0px 10px;
+border: 1px solid #ccc;
+
+}
+
+
+h1{
+    color:royalblue;
+    font-size: 80px;
+}
+.box{
+    margin: 10px 20px;
+display: flex;
+flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  
+}
+.mainL{
+    width: 40%;
+   
+}
+h3{
+    color: black;
+    font-size: 30px;
+}
+.mainR{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 450px;
+    height: 370px;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.1),
+    10px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 0px;
+    
+
+}
+hr{
+    border:1px solid #ccc;
+    margin:20px 0px;
+    width: 380px;
+}
